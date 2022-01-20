@@ -2,7 +2,6 @@
 
 =======
 # LIS4381 Mobile Web Application Development
->>>>>>> c5dcb6331add457e358e8404dd6b96986324be80
 
 ## James Francois
 
