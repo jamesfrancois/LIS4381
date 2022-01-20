@@ -1,8 +1,8 @@
 > **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
 
-# Class number and name
+# LIS4381 Mobile Web Application Development
 
-## Your name
+## James Francois
 
 ### Class Number Requirements:
 
