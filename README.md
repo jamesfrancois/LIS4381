@@ -1,6 +1,8 @@
 > **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
 
-# LIS 4381 Mobile Web Application Devlopment 
+=======
+# LIS4381 Mobile Web Application Development
+>>>>>>> c5dcb6331add457e358e8404dd6b96986324be80
 
 ## James Francois
 
