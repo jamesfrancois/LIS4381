@@ -12,8 +12,9 @@
 *Sub-Heading:*
 
 1. Git commands w/short descriptions
-2. Screenshots of PHP, JAVA and My First App running.
-3. 
+2. Screenshots of PHP
+3. Screenshots of JDK running 
+4. Screenshots of My First App running 
 
 #### README.md file should include the following items:
 * Git commands w/short descriptions
@@ -39,15 +40,15 @@
 
 *Screenshot of AMPPS running http://localhost*:
 
-![AMPPS Installation Screenshot](/Users/jamesfrancois/img/PHP.png)
+![AMPPS Installation Screenshot](img/PHP.png)
 
 *Screenshot of running java Hello*:
 
-![JDK Installation Screenshot](/Users/jamesfrancois/img/jdk_install.png)
+![JDK Installation Screenshot](img/jdk_install.png)
 
 *Screenshot of Android Studio - My First App*:
 
-![Android Studio Installation Screenshot](/Users/jamesfrancois/img/android.png)
+![Android Studio Installation Screenshot](img/android.png)
 
 
 #### Tutorial Links:
