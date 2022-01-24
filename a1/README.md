@@ -39,15 +39,15 @@
 
 *Screenshot of AMPPS running http://localhost*:
 
-![AMPPS Installation Screenshot](img/PHP.png)
+![AMPPS Installation Screenshot](/Users/jamesfrancois/img/PHP.png)
 
 *Screenshot of running java Hello*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![JDK Installation Screenshot](/Users/jamesfrancois/img/jdk_install.png)
 
 *Screenshot of Android Studio - My First App*:
 
-![Android Studio Installation Screenshot](img/android.png)
+![Android Studio Installation Screenshot](/Users/jamesfrancois/img/android.png)
 
 
 #### Tutorial Links:
