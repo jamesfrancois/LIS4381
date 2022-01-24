@@ -3,24 +3,23 @@
 >Also, this file **must** use Markdown syntax, and provide project documentation as per below--otherwise, points **will** be deducted.
 >
 
-# Course Title
+# LIS 4381
 
-## Your Name
+## James Francois
 
-### Assignment # Requirements:
+### Assignment 1 Requirements:
 
 *Sub-Heading:*
 
-1. Ordered-list items
-2. 
+1. Git commands w/short descriptions
+2. Screenshots of PHP, JAVA and My First App running.
 3. 
 
 #### README.md file should include the following items:
-
-* Bullet-list items
-* 
-* 
-* 
+* Git commands w/short descriptions
+* Screenshot of PHP running 
+* Screenshot of JDK running 
+* Screenshot of My First App
 
 > This is a blockquote.
 > 
@@ -28,19 +27,19 @@
 >
 > #### Git commands w/short descriptions:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+1. git init - creates a new git repositroy.
+2. git status - displays the state of the working directory and the staging area
+3. git add - adds a change in the working directory to the staging area.
+4. git commit - captures a snapshot of the project's currently staged changes.
+5. git push - upload local repository content to a remote repository.
+6. git pull - fetch and download content from a remote repository and immediately update the local repository to match that content.
+7. git config - a convenience function that is used to set Git configuration values on a global or local project level. 
 
 #### Assignment Screenshots:
 
 *Screenshot of AMPPS running http://localhost*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![AMPPS Installation Screenshot](img/PHP.png)
 
 *Screenshot of running java Hello*:
 
