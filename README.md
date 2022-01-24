@@ -10,8 +10,9 @@
 *Course Work Links:*
 
 1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Install something
-    - Install something
+    - Install PHP
+    - Install JDK JAVA
+    - Install Android studio
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
 
