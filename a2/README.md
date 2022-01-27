@@ -1,15 +1,28 @@
 > **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
 
-# Class number and name
+# LIS 4381 
 
-## Your name
+## James Francois
 
-### Class Number Requirements:
+### Assignment 2 Requirements:
 
-*Course Work Links:*
+*Sub-Heading:*
 
-1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Install something
-    - Install something
+1. Ordered-list items
+2. 
+3. 
 
-2. [A2 README.md](a2/README.md "My A2 README.md file")
+#### README.md file should include the following items:
+
+* Bullet-list items
+* 
+* 
+* 
+
+#### Tutorial Links:
+
+*Bitbucket Tutorial - Station Locations:*
+[A1 Bitbucket Station Locations Tutorial Link](https://bitbucket.org/username/bitbucketstationlocations/ "Bitbucket Station Locations")
+
+*Tutorial: Request to update a teammate's repository:*
+[A1 My Team Quotes Tutorial Link](https://bitbucket.org/username/myteamquotes/ "My Team Quotes Tutorial")
