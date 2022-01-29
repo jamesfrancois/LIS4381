@@ -8,16 +8,26 @@
 
 *Sub-Heading:*
 
-1. Ordered-list items
-2. 
-3. 
+1. Course title, your name, assignment requirements 
+2. Screenshot of running application's first user interface
+3. Screenshot of running application's second user interface
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
+* Course title, your name, assignment requirements 
+* Screenshot of running application's first user interface
+* Screenshot of running application's second user interface
+
+#### Assignment Screenshots:
+
+*Screenshot of running applications first user interface:
+
+![First user interface Screenshot](img/First.png)
+
+*Screenshot of running applications second user interface:
+
+![Second user interface Screenshot](img/Second.png)
+
 
 #### Tutorial Links:
 
