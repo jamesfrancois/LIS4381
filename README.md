@@ -15,7 +15,9 @@
     - Install Android studio
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
-
+    - Course title, your name, assignment requirements  
+    - Screenshot of running application's first user interface
+    - Screenshot of running application's second user interface  
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
 
