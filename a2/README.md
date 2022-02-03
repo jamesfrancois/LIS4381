@@ -35,11 +35,11 @@
 
 ![Skillset 1: Even or Odd](img/Skillset1.png)
 
-*Screenshot of Skillset 1:
+*Screenshot of Skillset 2:
 
 ![Skillset 2: Largest Number](img/Skillset2.png)
 
-*Screenshot of Skillset 1:
+*Screenshot of Skillset 3:
 
 ![Skillset 1: Arrays & Loops](img/Skillset3.png)
 
