@@ -41,7 +41,7 @@
 
 *Screenshot of Skillset 3:
 
-![Skillset 1: Arrays & Loops](img/Skillset3.png)
+![Skillset 3: Arrays & Loops](img/Skillset3.png)
 
 
 
