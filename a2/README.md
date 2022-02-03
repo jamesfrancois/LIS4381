@@ -20,13 +20,25 @@
 
 #### Assignment Screenshots:
 
-|Screenshot of running First User Interface | Screenshot of running Second User Interface|
-| ---------- || ---------- |
-| ![First user interface Screenshot](img/First.png) | ![Second user interface Screenshot](img/Second.png) |
+*Screenshot of running First User Interface
 
-| Skillset 1 || Skillset 2 || Skillset 3 |
-| ---------- || ---------- || ---------- |
-| ![Skillset 1: Even or Odd](img/Skillset1.png) | ![Skillset 2: Largest Number](img/Skillset2.png) | ![Skillset 3: Arrays & Loops](img/Skillset3.png) |
+![First user interface Screenshot](img/First.png) | 
+
+*Screenshot of running Second User Interface
+
+![Second user interface Screenshot](img/Second.png) |
+
+*Screenshot of Skillset 1 
+
+![Skillset 1: Even or Odd](img/Skillset1.png) 
+
+*Screenshot of Skillset 2 
+
+![Skillset 2: Largest Number](img/Skillset2.png)
+
+*Screenshot of Skillset 3
+
+[Skillset 3: Arrays & Loops](img/Skillset3.png)
 
 
 #### Tutorial Links:
