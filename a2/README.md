@@ -29,6 +29,24 @@
 ![Second user interface Screenshot](img/Second.png)
 
 
+#### Skillsets Screenshots:
+
+*Screenshot of Skillset 1:
+
+![Skillset 1: Even or Odd](img/Skillset1.png)
+
+*Screenshot of Skillset 1:
+
+![Skillset 2: Largest Number](img/Skillset2.png)
+
+*Screenshot of Skillset 1:
+
+![Skillset 1: Arrays & Loops](img/Skillset3.png)
+
+
+
+
+
 #### Tutorial Links:
 
 *Bitbucket Tutorial - Station Locations:*

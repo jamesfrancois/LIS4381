@@ -1,9 +1,11 @@
-public class Main
+import java.util.Scanner;
+
+class Main
 {
-public static void main(String[] args)
+public static void main(String args[])
 {
-//call static methods (i.e., no object)
 Methods.getRequirements();
-Methods.evaluateNumber();
- }
+System.out.println("\n***Call static (no object) value-returning method and vold method:*** ");
+Methods.largestNumber();
+    }
 }
