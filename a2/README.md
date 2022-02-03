@@ -8,43 +8,25 @@
 
 *Sub-Heading:*
 
-1. Course title, your name, assignment requirements 
-2. Screenshot of running application's first user interface
-3. Screenshot of running application's second user interface
+1. Screenshot of running application's first user interface
+2. Screenshot of running application's second user interface
+3. Skillsets
 
 #### README.md file should include the following items:
 
-* Course title, your name, assignment requirements 
 * Screenshot of running application's first user interface
 * Screenshot of running application's second user interface
+* Skillsets
 
 #### Assignment Screenshots:
 
-*Screenshot of running applications first user interface:
+|Screenshot of running First User Interface | Screenshot of running Second User Interface|
+| ---------- || ---------- |
+| ![First user interface Screenshot](img/First.png) | ![Second user interface Screenshot](img/Second.png) |
 
-![First user interface Screenshot](img/First.png)
-
-*Screenshot of running applications second user interface:
-
-![Second user interface Screenshot](img/Second.png)
-
-
-#### Skillsets Screenshots:
-
-*Screenshot of Skillset 1:
-
-![Skillset 1: Even or Odd](img/Skillset1.png)
-
-*Screenshot of Skillset 2:
-
-![Skillset 2: Largest Number](img/Skillset2.png)
-
-*Screenshot of Skillset 3:
-
-![Skillset 3: Arrays & Loops](img/Skillset3.png)
-
-
-
+| Skillset 1 || Skillset 2 || Skillset 3 |
+| ---------- || ---------- || ---------- |
+| ![Skillset 1: Even or Odd](img/Skillset1.png) | ![Skillset 2: Largest Number](img/Skillset2.png) | ![Skillset 3: Arrays & Loops](img/Skillset3.png) |
 
 
 #### Tutorial Links:
