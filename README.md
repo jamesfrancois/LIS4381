@@ -20,6 +20,11 @@
     - Screenshots of Skillsets 
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
+    - Screenshot of ERD;
+    - Screenshot of running applications opening user interface;
+    - Screenshot of running applications processing user input;
+    - Screenshots of 10 records for each table;
+    - Links to the following files: a3.mwb, a3.sql
 
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
