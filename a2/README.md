@@ -22,11 +22,11 @@
 
 *Screenshot of running First User Interface
 
-![First user interface Screenshot](img/First.png) | 
+![First user interface Screenshot](img/First.png) 
 
 *Screenshot of running Second User Interface
 
-![Second user interface Screenshot](img/Second.png) |
+![Second user interface Screenshot](img/Second.png)
 
 *Screenshot of Skillset 1 
 
