@@ -34,24 +34,29 @@
 
 *Screenshot of running applications processing user input; 
 
-![Skillset 1: Even or Odd](img/Second.png) 
+![Running applications processing user input](img/Second.png) 
 
 *Screenshots of 10 records for each table; 
 
-![Skillset 2: Largest Number](Datatables/Skillset2.png)
+![Screenshots of 10 records for each table](img/Datatables.png)
 
 *Screenshot of Skillset 4
 
-![Skillset 3: Arrays & Loops](img/Skillset4.png)
+![Skillset 4: Phone Types](img/Skillset4.png)
 
 *Screenshot of Skillset 5
 
-![Skillset 3: Arrays & Loops](img/Skillset5.png)
+![Skillset 5: Random Number Generator](img/Skillset5.png)
 
 *Screenshot of Skillset 6
 
-![Skillset 3: Arrays & Loops](img/Skillset6.png)
+![Skillset 6: Methods](img/Skillset6.png)
 
+*Link to a3.mwb
+[Skillset 6: Methods](docs/a3.mwb)
+
+*Link to a3.sql
+[Skillset 6: Methods](docs/a3.sql)
 
 
 
