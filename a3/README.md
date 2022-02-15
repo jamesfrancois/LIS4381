@@ -24,6 +24,34 @@
 
 #### Assignment Screenshots:
 
+*Screenshot of ERD
+
+![First user interface Screenshot](img/Erd.png) 
+
+*Screenshot of running applications opening user interface 
+
+![Second user interface Screenshot](img/First.png)
+
+*Screenshot of running applications processing user input; 
+
+![Skillset 1: Even or Odd](img/Second.png) 
+
+*Screenshots of 10 records for each table; 
+
+![Skillset 2: Largest Number](Datatables/Skillset2.png)
+
+*Screenshot of Skillset 4
+
+![Skillset 3: Arrays & Loops](img/Skillset4.png)
+
+*Screenshot of Skillset 5
+
+![Skillset 3: Arrays & Loops](img/Skillset5.png)
+
+*Screenshot of Skillset 6
+
+![Skillset 3: Arrays & Loops](img/Skillset6.png)
+
 
 
 
