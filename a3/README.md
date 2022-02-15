@@ -53,10 +53,10 @@
 ![Skillset 6: Methods](img/Skillset6.png)
 
 *Link to a3.mwb
-[Skillset 6: Methods](docs/a3.mwb)
+[a3.mwb](docs/a3.mwb)
 
 *Link to a3.sql
-[Skillset 6: Methods](docs/a3.sql)
+[a3.sql](docs/a3.sql)
 
 
 
