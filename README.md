@@ -34,7 +34,10 @@
 
 
 6. [P1 README.md](p2/README.md "My P1 README.md file")
-
+    - Course title, your name, assignment requirements, as per A1; 
+    - Screenshot of running applications first user interface; 
+    - Screenshot of running applications second user interface;
+    - Screenshots of Skillsets 
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
 
