@@ -1,15 +1,23 @@
 > **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
 
-# Class number and name
+# LIS 4381 
 
-## Your name
+## James Francois
 
-### Class Number Requirements:
+### Assignment 3 Requirements:
 
-*Course Work Links:*
+*Sub-Heading:*
 
-1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Install something
-    - Install something
+1. Course title, your name, assignment requirements, as per A1; 
+2. Screenshot of running applications first user interface; 
+3. Screenshot of running applications second user interface;
+4. Screenshots of Skillsets 
 
-2. [A2 README.md](a2/README.md "My A2 README.md file")
+#### README.md file should include the following items:
+
+* Course title, your name, assignment requirements, as per A1; 
+* Screenshot of running applications first user interface; 
+* Screenshot of running applications second user interface;
+* Screenshots of Skillsets 
+
+#### Assignment Screenshots:
