@@ -33,7 +33,7 @@
 5. [A5 README.md](a5/README.md "My A5 README.md file")
 
 
-6. [P1 README.md](p2/README.md "My P1 README.md file")
+6. [P1 README.md](p1/README.md "My P1 README.md file")
     - Course title, your name, assignment requirements, as per A1; 
     - Screenshot of running applications first user interface; 
     - Screenshot of running applications second user interface;
