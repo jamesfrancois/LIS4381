@@ -1,67 +1,66 @@
 import java.util.Scanner;
 
-public class Methods 
-{
-    
-    public static void getRequirements()
+
+class Methods {
+
+static final Scanner sc = new Scanner(System.in);
+
+public static void getRequirements() {
+        System.out.println("Developer: James Francois");
+        System.out.println("1) Program creates array size at run-time.");
+        System.out.println("2) Program displays array size.");
+        System.out.println("3) Program rounds sum and average of numbers to two decimal places.");
+        System.out.println("4) Numbers *must* be float data type, not double.");
+}
+
+public static int validateArraySize() {
+    int arraySize = 0;
+
+    System.out.print("Please enter array size: ");
+    while (!sc.hasNextInt())
     {
-        System.out.println("Developer: James S. Francois");
-        System.out.println("Program prompts user for first name and age, then prints results. ");
-        System.out.println("Create four methods from the following requirements: ");
-        System.out.println("1) getRequirements(): Void method displays program requirements.");
-        System.out.println("2) getUserInput(): Void prompts for user input,");
-        System.out.println("\tthen calls two methods: myVoidMethod() and myValueReturningMethod(). ");
-        System.out.println("3) myVoidMethod():"); 
-        System.out.println("\ta. Accepts two arguments: String and int."); 
-        System.out.println("\tb. Prints user's first name and age.");
-        System.out.println("4) myValueReturningMethod():"); 
-        System.out.println("\ta. Accepts two arguments: String and int."); 
-        System.out.println("\tb. Prints user's first name and age.");
-        System.out.println();
-
-    
- }
- 
-    
- public static void getUserInput()
- {
-    String firstName ="";
-    int userAge = 0;
-    String myStr ="";
-    Scanner scnr = new Scanner(System.in);
-
-
-    System.out.println("Enter first name: ");
-    firstName = scnr.next();
-
-    System.out.println("Enter age: ");
-    userAge = scnr.nextInt();
-
-    
+        System.out.println("Not valid integer\n");
+        sc.next();
+        System.out.print("Please try again. Enter array size: ");
+    }
+    arraySize = sc.nextInt();
     System.out.println();
 
-
-    System.out.print("void method call: ");
-    myVoidMethod(firstName,userAge);
-
-
-    System.out.print("value-returning method call: ");
-    myStr = myValueReturningMethod(firstName,userAge);
-    System.out.println(myStr);
-
-}
-public static void myVoidMethod(String first,int age)
-{
-   System.out.println(first + " is " + age);
-   return; 
-
-}
-public static String myValueReturningMethod(String first,int age)
-{
-    return first + " is " + age;
-
+    return arraySize;
 }
 
+public static void calculateNumbers(int arraySize) {
+    float sum = 0.0f;
+    float average = 0.0F;
 
+    System.out.print("Please enter " + arraySize + " numbers.\n");
+
+    float numsArray[] = new float[arraySize];
+
+    for(int i = 0; i < arraySize; i++)
+    {
+        System.out.print("Enter num " + (i + 1) + ": ");
+
+        while (!sc.hasNextFloat())
+        {
+            System.out.println("Not valid number!\n");
+            sc.next();
+            System.out.print("Please try again. Enter num " + (i + 1) + ": ");
+        }
+        numsArray[i] = sc.nextFloat();
+        sum = sum + numsArray[i];
+    }
+    average = sum / arraySize;
+
+    System.out.print("\nNumbers entered: ");
+    for (int i = 0; i < numsArray.length; i++)
+    System.out.print(numsArray[i]+"");
+
+    printNumbers(sum, average);
 }
-    
+
+public static void printNumbers(float sum, float average) {
+    System.out.println("\nSum: " + String.format("%.2f", sum));
+    System.out.println("Average: " + String.format("%.2f", average));
+}
+}
