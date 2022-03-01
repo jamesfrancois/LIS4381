@@ -19,3 +19,24 @@
 * Screenshots of Skillsets 
 
 #### Assignment Screenshots:
+
+*Screenshot of running applications opening user interface 
+
+![Second user interface Screenshot](img/First.png)
+
+*Screenshot of running applications processing user input; 
+
+![Running applications processing user input](img/Second.png) 
+
+*Screenshot of Skillset 7
+
+![Skillset 4: Phone Types](img/Skillset7.png)
+
+*Screenshot of Skillset 8
+
+![Skillset 5: Random Number Generator](img/Skillset8.png)
+
+*Screenshot of Skillset 9
+
+![Skillset 6: Methods](img/Skillset9.png)
+
