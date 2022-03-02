@@ -30,13 +30,13 @@
 
 *Screenshot of Skillset 7
 
-![Skillset 4: Phone Types](img/Skillset7.png)
+![Skillset 7: Random Number Generator Validation](img/Skillset7.png)
 
 *Screenshot of Skillset 8
 
-![Skillset 5: Random Number Generator](img/Skillset8.png)
+![Skillset 8: Largest of 3 Numbers](img/Skillset8.png)
 
 *Screenshot of Skillset 9
 
-![Skillset 6: Methods](img/Skillset9.png)
+![Skillset 9:Array Runtime Data Validation](img/Skillset9.png)
 
