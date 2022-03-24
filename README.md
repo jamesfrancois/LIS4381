@@ -28,9 +28,14 @@
 
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
-
+    - Course title, your name, assignment requirements, as per A1;
+    - Screenshot of Failed Validation
+    - Screenshot of Passed Validation
+    - Screenshots of Skillsets
+    - Link to local lis4381 web app:
 
 5. [A5 README.md](a5/README.md "My A5 README.md file")
+    
 
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
