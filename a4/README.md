@@ -48,7 +48,7 @@
 
 *Link to local lIS4381 Web App
 
-![Link to local lis4381 web app](http://localhost:8080/repos/lis4381/index.php)
+[Link to local lis4381 web app](http://localhost:8080/repos/lis4381/index.php)
 
 
 #### Tutorial Links:
