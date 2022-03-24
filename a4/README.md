@@ -24,7 +24,7 @@
 
 *LIS 4381 Portal (Main Page)
 
-![LIS 4381 Portal (Main Page)](img/Erd.png) 
+![LIS 4381 Portal (Main Page)](img/homepage.png) 
 
 *Failed Validation 
 
