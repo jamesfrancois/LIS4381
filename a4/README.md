@@ -9,8 +9,8 @@
 1. Course title, your name, assignment requirements, as per A1;
 2. Screenshot of Failed Validation
 3. Screenshot of Passed Validation 
-2. Screenshots of Skillsets
-3. Link to local lis4381 web app: http://localhost/repos/lis4381/ 
+4. Screenshots of Skillsets
+5. Link to local lis4381 web app: http://localhost:8080/repos/lis4381/index.php 
 
 #### README.md file should include the following items:
 
@@ -45,6 +45,10 @@
 *Screenshot of Skillset 12
 
 ![Skillset 12: Temperature Conversion](img/Skillset12.png)
+
+*Link to local lIS4381 Web App
+
+![Link to local lis4381 web app](http://localhost:8080/repos/lis4381/index.php)
 
 
 #### Tutorial Links:
