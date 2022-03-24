@@ -10,15 +10,15 @@
 2. Screenshot of Failed Validation
 3. Screenshot of Passed Validation 
 4. Screenshots of Skillsets
-5. Link to local lis4381 web app: http://localhost:8080/repos/lis4381/index.php 
+5. Link to local lis4381 web app:
 
 #### README.md file should include the following items:
 
 * Course title, your name, assignment requirements, as per A1;
-* Screenshot of running applications opening user interface; 
-* Screenshot of running applications processing user input; 
-* Screenshots of 10 records for each table; 
-* Links to the following files: a3.mwb, a3.sql; 
+* Screenshot of Failed Validation 
+* Screenshot of Passed Validation 
+* Screenshots of Skillsets
+* Link to local lis4381 web app: 
 
 #### Assignment Screenshots:
 
