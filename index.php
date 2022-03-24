@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-		<meta name="author" content="James S. Francois">
+		<meta name="description" content="This is my online portfolio and it will display the skills i learned to comeplete various assignments and projects in class.">
+		<meta name="author" content="James S. François">
 		<link rel="icon" href="favicon.ico">
 
-		<title>My Online Portfolio</title>
+		<title>James François Online Portfolio</title>
 
 		<?php include_once("css/include_css.php"); ?>	
 
@@ -70,31 +70,35 @@
 						<div class="carousel-inner">
 
 							<!-- -Note: you will need to modify the code to make it work with *both* text and images.  -->
-							<div class="active item" style="background: url(img/yourimage.jpg) no-repeat left center; background-size: cover;">
+							<div class="active item" style="background: url(img/slide1.png) no-repeat left center; background-size: cover;">
 								<div class="container">
 									<div class="carousel-caption">
-										<h3>First slide label</h3>
-										<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+										<h3>The Future of the World</h3>
+										<p class="lead">Tinkering with Artifical Intellgence</p>
                         </div>
                       </div>
                     </div>
               
 							<div class="item">
-								<h2>Slide 2</h2>
-								<div class="carousel-caption">
-									<h3>Second slide label</h3>
-									<p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-									<img src="img/slide2.png" alt="Slide 2">									
-								</div>
+							<div class="active item" style="background: url(img/slide2.png) no-repeat left center; background-size: cover;">
+								<div class="container">
+									<div class="carousel-caption">
+										<h3>Thinking Outside the Box</h3>
+										<p class="lead">The Wonders of Cloud Computing </p>
+                        </div>
+                      </div>
+                    </div>
 							</div>
 
 							<div class="item">
-								<h2>Slide 3</h2>
-								<div class="carousel-caption">
-									<h3>Third slide label</h3>
-									<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-									<img src="img/slide3.png" alt="Slide 3">									
-								</div>
+							<div class="active item" style="background: url(img/slide3.png) no-repeat left center; background-size: cover;">
+								<div class="container">
+									<div class="carousel-caption">
+										<h3>How Secure is your security?</h3>
+										<p class="lead">Diving Deep into Cybersecurity</p>
+                        </div>
+                      </div>
+                    </div>
 							</div>
 
 						</div>
