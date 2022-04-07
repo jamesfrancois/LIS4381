@@ -20,11 +20,19 @@
 
 *Screenshot of Petstore Index 
 
-![Second user interface Screenshot](img/index.png)
+![Petstore Index](img/index.png)
 
-*Screenshot of invalid Add Petstore; 
+*Screenshot of Failed Validation Add Petstore; 
 
-![Running applications processing user input](img/failed_validation.png) 
+![Invalid Petstore](img/failed_validation.png) 
+
+*Screenshot of invalid Add Petstore Error; 
+
+![Invalid add petstore](img/error.png) 
+
+*Screenshot of Valid Add Petstore Error; 
+
+![Running applications processing user input](img/valid.png) 
 
 *Screenshot of Skillset 13
 
