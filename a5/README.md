@@ -34,6 +34,10 @@
 
 ![Running applications processing user input](img/valid.png) 
 
+*Screenshot of Passed Validation; 
+
+![Running applications processing user input](img/passed_validation.png) 
+
 *Screenshot of Skillset 13
 
 ![Skillset 13: Sphere Volume Calculator](img/Skillset13.png)
