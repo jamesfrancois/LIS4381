@@ -35,6 +35,9 @@
     - Link to local lis4381 web app:
 
 5. [A5 README.md](a5/README.md "My A5 README.md file")
+    - Course title, your name, assignment requirements, as per A1; 
+    - Screenshots of Petstore operations
+    - Screenshots of Skillsets 
     
 
 
