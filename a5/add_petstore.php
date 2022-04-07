@@ -11,7 +11,7 @@
 	<meta name="author" content="James François">
 	<link rel="icon" href="favicon.ico">
 
-	<title>Assignment 4</title>
+	<title>Assignment 5 </title>
 		<?php include_once("../css/include_css.php"); ?>
 </head>
 <body>
@@ -27,7 +27,7 @@
 
 					<h2>Pet Stores</h2>
 
-						<form id="defaultForm" method="post" class="form-horizontal" action="#">
+						<form id="defaultForm" method="post" class="form-horizontal" action="add_petstore_process.php">
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Name:</label>
 										<div class="col-sm-4">

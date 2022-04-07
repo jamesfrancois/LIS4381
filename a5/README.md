@@ -1,15 +1,55 @@
-> **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
+# LIS 4381 
 
-# Class number and name
+## James Francois
 
-## Your name
+### Assignment 5 Requirements:
 
-### Class Number Requirements:
+*Sub-Heading:*
 
-*Course Work Links:*
+1. Course title, your name, assignment requirements, as per A1; 
+2. Screenshots of Petstore operations
+3. Screenshots of Skillsets 
 
-1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Install something
-    - Install something
+#### README.md file should include the following items:
 
-2. [A2 README.md](a2/README.md "My A2 README.md file")
+* Course title, your name, assignment requirements, as per A1; 
+* Screenshots of Petstore operations
+* Screenshots of Skillsets 
+
+#### Assignment Screenshots:
+
+*Screenshot of Petstore Index 
+
+![Second user interface Screenshot](img/index.png)
+
+*Screenshot of invalid Add Petstore; 
+
+![Running applications processing user input](img/failed_validation.png) 
+
+*Screenshot of Skillset 13
+
+![Skillset 13: Sphere Volume Calculator](img/Skillset13.png)
+
+*Screenshot of Skillset 14 Index Addition
+
+![Skillset 14: Simple Calculator](img/addition_index.png)
+
+*Screenshot of Skillset 14 Process Addition
+
+![Skillset 14:Simple Calculator](img/addition_process.png)
+
+*Screenshot of Skillset 14 Process Divison
+
+![Skillset 14:Simple Calculator](img/divison_index.png)
+
+*Screenshot of Skillset 14 Process Divison
+
+![Skillset 14:Simple Calculator](img/divison_process.png)
+
+*Screenshot of Skillset 15 Index 
+
+![Skillset 15:Write Read File](img/Skillset15_index.png)
+
+*Screenshot of Skillset 15 Process
+
+![Skillset 15:Write Read File](img/Skillset15_process.png)

@@ -44,7 +44,7 @@
 				<img src="img/Second.png" class="img-responsive center-block" alt="Android Studio Installation">
 
 				<h4>Record of each table</h4>
-				<img src="img/Database.png" class="img-responsive center-block" alt="Android Studio Installation">
+				<img src="img/Datatables.png" class="img-responsive center-block" alt="Android Studio Installation">
 				
 				<h4>skillset 4</h4>
 				<img src="img/Skillset4.png" class="img-responsive center-block" alt="AMPPS Installation">
