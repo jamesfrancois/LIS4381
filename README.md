@@ -48,4 +48,10 @@
     - Screenshots of Skillsets 
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
+    - Course title, your name, assignment requirements, as per A1; 
+    - Screenshot of Main Index Page
+    - Seceenshot of Edit petstore
+    - Screenshot of Delete petstore
+    - Screenshot of Passed Validation 
+    - Screenshot of Failed Validation 
 

@@ -114,7 +114,7 @@
 	<!-- Bootstrap JavaScript
 	================================================== -->
 	<!-- Placed at end of document so pages load faster -->
-			<?php include_once("../js/include_js.php"); ?>
+			<?php //include_once("../js/include_js.php"); ?>
 
 <script type="text/javascript">
  //See Regular Expressions: http://www.qcitr.com/usefullinks.htm#lesson7

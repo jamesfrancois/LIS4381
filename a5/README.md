@@ -30,7 +30,7 @@
 
 ![Invalid add petstore](img/error.png) 
 
-*Screenshot of Valid Add Petstore Error; 
+*Screenshot of Valid Add Petstore ; 
 
 ![Running applications processing user input](img/valid.png) 
 
