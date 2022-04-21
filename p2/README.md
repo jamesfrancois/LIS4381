@@ -1,15 +1,43 @@
-> **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
+# LIS 4381 
 
-# Class number and name
+## James Francois
 
-## Your name
+### Assignment 5 Requirements:
 
-### Class Number Requirements:
+*Sub-Heading:*
 
-*Course Work Links:*
+1. Course title, your name, assignment requirements, as per A1; 
+2. Screenshots of Petstore operations
+3. Screenshots of Skillsets 
 
-1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Install something
-    - Install something
+#### README.md file should include the following items:
 
-2. [A2 README.md](a2/README.md "My A2 README.md file")
+* Course title, your name, assignment requirements, as per A1; 
+* Screenshots of Petstore operations
+* Screenshots of Skillsets 
+
+#### Assignment Screenshots:
+
+*Screenshot of Petstore Index 
+
+![Petstore Index](img/index.png)
+
+*Screenshot of Edit Petstore; 
+
+![Edit Petstore](img/edit.png) 
+
+*Screenshot of Failed Validation; 
+
+![Failed Validation](img/failed.png) 
+
+*Screenshot of Passed Validation; 
+
+![Passed Validation](img/passed.png) 
+
+*Screenshot of Delete Prompt; 
+
+![Delete Prompt](img/prompt.png) 
+
+*Screenshot of Sucessful Deleted Record;
+
+![Sucessful Deleted Record](img/delete.png) 

@@ -11,7 +11,7 @@
 	<meta name="author" content="James François">
 	<link rel="icon" href="favicon.ico">
 
-	<title>Assignment 5 </title>
+	<title>Project 2 </title>
 		<?php include_once("../css/include_css.php"); ?>
 </head>
 <body>
@@ -20,87 +20,128 @@
 
 	<div class="container">
 		<div class="starter-template">
-					
 					<div class="page-header">
 						<?php include_once("global/header.php"); ?>	
 					</div>
 
 					<h2>Pet Stores</h2>
 
-						<form id="add_petstore" method="post" class="form-horizontal" action="add_petstore_process.php">
+						<form id="edit_petstore" method="post" class="form-horizontal" action="edit_petstore_process.php">
+
+						<?php
+						require_once "../global/connection.php";
+
+						//capture pst ID from index.php page
+						$pst_id_v = $_POST['pst_id'];
+
+						//find all data associated with selected petstore ID above
+						$query = 
+						"SELECT *
+						FROM petstore
+						WHERE pst_id = :pst_id_p";
+
+						//display query statement, then exit (for testing purposes only)
+						//exit($query)
+
+						try {
+							$statement = $db->prepare($query);
+							$statement->bindParam(':pst_id_p', $pst_id_v);
+							$statement->execute();
+							$result = $statement->fetch();
+							while($result != null)
+						{
+						?>
+								<input type="hidden" name="pst_id" value="<?php echo $result['pst_id']; ?> "/>
+
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Name:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="name" placeholder="(Max 30 characters)" />
+												<input type="text" class="form-control" name="name" placeholder="(max 30 characters)" value="<?php echo $result['pst_name']; ?>" />
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Street:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="street" placeholder="(Max 30 characters)" />
+												<input type="text" class="form-control" name="street" placeholder="(max 30 characters)" value="<?php echo $result['pst_street']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">City:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="city" placeholder="(Max 30 chaacters)" />
+												<input type="text" class="form-control" name="city" placeholder="(max 30 characters)" value="<?php echo $result['pst_city']; ?>"/>
 										</div>
 								</div>
 
+								
 								<div class="form-group">
 										<label class="col-sm-4 control-label">State:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="state" placeholder="(Example: FL)" />
+												<input type="text" class="form-control" name="state" placeholder="Example: FL" value="<?php echo $result['pst_state']; ?>"/>
 										</div>
 								</div>
+
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Zip:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="zip" placeholder="(5 to 9 digits no dashes)" />
+												<input type="text" class="form-control" name="zip" placeholder="(5 or 9 digits no dashes)" value="<?php echo $result['pst_zip']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Phone:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="phone" placeholder="(10 digits no characters)" />
+												<input type="text" class="form-control" name="phone" placeholder="(10 digits no other characters)" value="<?php echo $result['pst_phone']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Email:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="email" placeholder="(Example: JohnSmith@yahoo.com)" />
+												<input type="text" class="form-control" name="email" placeholder="Example: jdoe@gmail.com" value="<?php echo $result['pst_email']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">URL:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="url" placeholder="(Example: www.johnsmith.com)" />
+												<input type="text" class="form-control" name="url" placeholder="Example: wwww.jdoe.com" value="<?php echo $result['pst_url']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">YTD Sales:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="ytdsales" placeholder="(Example: 250.00 (No other characters)" />
+												<input type="text" class="form-control" name="ytdsales" placeholder="Example: 100.00 (no other characters)" value="<?php echo $result['pst_ytd_sales']; ?>"/>
 										</div>
 								</div>
 
 								<div class="form-group">
 										<label class="col-sm-4 control-label">Notes:</label>
 										<div class="col-sm-4">
-												<input type="text" class="form-control" name="notes" />
+												<input type="text" class="form-control" name="notes" value="<?php echo $result['pst_notes']; ?>"/>
 										</div>
 								</div>
 
+								<?php
+								$result = $statement->fetch();
+					}
+					$statement->closeCursor();
+					$db = null;
+				}
+
+				catch (PDOException $e)
+				{
+					$error = $e->getMessage();
+					include('../global/error.php');
+				}
+				?>
+
 								<div class="form-group">
 									<div class="col-sm-6 col-sm-offset-3">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign Up">Submit</button>
+									<button type="submit" class="btn btn-primary" name="edit" value="Edit">Update</button>
 										</div>
 								</div>
 						</form>
@@ -110,7 +151,6 @@
 		</div> <!-- end starter-template -->
  </div> <!-- end container -->
 
-	
 	<!-- Bootstrap JavaScript
 	================================================== -->
 	<!-- Placed at end of document so pages load faster -->
@@ -120,7 +160,7 @@
  //See Regular Expressions: http://www.qcitr.com/usefullinks.htm#lesson7
  $(document).ready(function() {
 
-	$('#add_petstore').formValidation({
+	$('#edit_petstore').formValidation({
 			message: 'This value is not valid',
 			icon: {
 					valid: 'fa fa-check',
@@ -159,12 +199,12 @@
 											message: 'Street no more than 30 characters'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^[a-zA-Z0-9,\-\s\.]+$/,		
 									message: 'Street can only contain letters, numbers, commas, hyphens, or periods'
 									},									
 							},
 					},
-
 
 					city: {
 							validators: {
@@ -177,8 +217,9 @@
 											message: 'City no more than 30 characters'
 									},
 									regexp: {
-										regexp: /^[a-zA-Z0-9\s]+$/,		
-									message: 'City can only contain letters, numbers'
+										//street: only letters, numbers, commas, hyphens, space character, and periods
+										regexp: /^[a-zA-Z0-9\-\s]+$/,		
+									message: 'City can only contain letters, numbers, hyphens, and space character (29 Palms)'
 									},									
 							},
 					},
@@ -194,6 +235,7 @@
 											message: 'State must be two characters'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^[a-zA-Z]+$/,		
 									message: 'State can only contain letters'
 									},									
@@ -203,14 +245,15 @@
 					zip: {
 							validators: {
 									notEmpty: {
-											message: 'Zip required, only numbers'
+											message: 'Zip required'
 									},
 									stringLength: {
 											min: 5,
 											max: 9,
-											message: 'Zip must be at least 5, and no more than 9 digits'
+											message: 'Zip must be 5, and no more than 9 digits'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^[0-9]+$/,		
 									message: 'Zip can only contain numbers'
 									},									
@@ -220,7 +263,7 @@
 					phone: {
 							validators: {
 									notEmpty: {
-											message: 'Phone required, including area code, only numbers'
+											message: 'Phone required'
 									},
 									stringLength: {
 											min: 10,
@@ -228,11 +271,14 @@
 											message: 'Phone must be 10 digits'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^[0-9]+$/,		
 									message: 'Phone can only contain numbers'
 									},									
 							},
 					},
+
+					
 
 					email: {
 							validators: {
@@ -245,6 +291,7 @@
 											message: 'Email no more than 100 characters'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/,		
 									message: 'Must include valid email'
 									},									
@@ -254,7 +301,7 @@
 					url: {
 							validators: {
 									notEmpty: {
-											message: 'URL required'
+											message: 'Url required'
 									},
 									stringLength: {
 											min: 1,
@@ -262,8 +309,9 @@
 											message: 'URL no more than 100 characters'
 									},
 									regexp: {
-										regexp: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/w\.-]*)*\/?$/,		
-									message: 'Must include valid URL'
+										//street: only letters, numbers, commas, hyphens, space character, and periods
+										regexp: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/,		
+									message: 'Must include valid url'
 									},									
 							},
 					},
@@ -279,11 +327,13 @@
 											message: 'YTD sales can be no more than 10 digits, including decimal point'
 									},
 									regexp: {
+										//street: only letters, numbers, commas, hyphens, space character, and periods
 										regexp: /^[0-9\.]+$/,		
 									message: 'YTD sales can only contain numbers and decimal point'
 									},									
 							},
 					},
+					
 			}
 	});
 });
