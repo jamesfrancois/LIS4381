@@ -22,22 +22,22 @@
 
 ![Petstore Index](img/index.png)
 
-*Screenshot of Edit Petstore; 
+*Screenshot of Edit Petstore 
 
 ![Edit Petstore](img/edit.png) 
 
-*Screenshot of Failed Validation; 
+*Screenshot of Failed Validation 
 
 ![Failed Validation](img/failed.png) 
 
-*Screenshot of Passed Validation; 
+*Screenshot of Passed Validation 
 
 ![Passed Validation](img/passed.png) 
 
-*Screenshot of Delete Prompt; 
+*Screenshot of Delete Prompt 
 
 ![Delete Prompt](img/prompt.png) 
 
-*Screenshot of Sucessful Deleted Record;
+*Screenshot of Sucessful Deleted Record
 
 ![Sucessful Deleted Record](img/delete.png) 
