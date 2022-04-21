@@ -41,3 +41,7 @@
 *Screenshot of Sucessful Deleted Record
 
 ![Sucessful Deleted Record](img/delete.png) 
+
+*Screenshot of RSS Feed
+
+![RSS Feed](img/rss.png) 
