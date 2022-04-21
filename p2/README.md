@@ -2,19 +2,23 @@
 
 ## James Francois
 
-### Assignment 5 Requirements:
+### Project 2 Requirements:
 
 *Sub-Heading:*
 
 1. Course title, your name, assignment requirements, as per A1; 
-2. Screenshots of Petstore operations
-3. Screenshots of Skillsets 
+2. Screenshot of Petstore Index 
+3. Screenshot of Edit Petstore 
+4. Screenshot of Failed Validation 
+5. Screenshot of Passed Validation 
 
 #### README.md file should include the following items:
 
 * Course title, your name, assignment requirements, as per A1; 
-* Screenshots of Petstore operations
-* Screenshots of Skillsets 
+* Screenshot of Petstore Index 
+* Screenshot of Edit Petstore 
+* Screenshot of Failed Validation 
+* Screenshot of Passed Validation 
 
 #### Assignment Screenshots:
 
